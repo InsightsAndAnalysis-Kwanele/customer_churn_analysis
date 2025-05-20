@@ -3,15 +3,16 @@
 
 #STEPS
 1.Importing Libraries
-Tools:Using Pandas to import data,matplotlib and seaborn for data visualizations
+-Tools:Using Pandas to import data,matplotlib and seaborn for data visualizations
 
 
 2.Loading the dataset
-Loaded  the dataset into pandas datafrme:Telco-Customer-Churn ,the dataset source was from kaggle where Each row represents a customer, with each column containing the customers’ attributes
+-Loaded  the dataset into pandas datafrme:Telco-Customer-Churn dataset ,the dataset source was from kaggle where Each row represents a customer, with each coloumn containing the customers’ attributes
 
-3.I did a overview of the dataset getting the information such as row numbers and the number of coloumns(shape), number of of null values on each coloumn,and the datatypes of each coloumn
+3.Exploring the Data Set 
+-I did a overview of the dataset getting the information such as row numbers and the number of coloumns(shape), number of of null values on each coloumn,and the datatypes of each coloumn
 
-4.Doing Data Analysis in Context Of the Data and Making Visualizations
+4.Exploratory Data Analysis in Context Of the Data and Making Visualizations
 
 -Getting the amount of customers the company could not retain compared to how many were retained
 
@@ -21,9 +22,8 @@ Loaded  the dataset into pandas datafrme:Telco-Customer-Churn ,the dataset sourc
 -plotting the effect of charges
 -seeing which payment method most people are using
 
-5#Conclusion
-#Making Insights and Understanding the data
-#insight->many customers with the month-to-monh subscription left,more with a longer subcription were retained, therforefore is it better to promote year long subscription...?
-#insight->AverageMonthlyCharges were higher for the custumers that left than those who remained
-#insight->Other insights we saw how people mostly prefer to use Electronic payments than the rest (both curned and retained customers)
-#insight->Using a histogram and looking atth distribution of payments made by use on month to month contracts,the distibution was skewed to the right,showing that many user might prefer lower prices
+5Conclusion an Making Insights and Understanding the data
+-Many customers with the month-to-monh subscription left,more with a longer subcription were retained, therforefore is it better to promote year long subscription...?
+-AverageMonthlyCharges were higher for the custumers that left than those who remained
+-Other insights we saw how people mostly prefer to use Electronic payments than the rest (both curned and retained customers)
+-Using a histogram and looking atth distribution of payments made by use on month to month contracts,the distibution was skewed to the right,showing that many user might prefer lower prices/payments
